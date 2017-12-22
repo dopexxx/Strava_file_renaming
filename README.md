@@ -1,4 +1,4 @@
-# <img src="public/strava.png" width="10%"> file renaming
+# <img src="public/strava.png" width="12%"> file renaming
 
 A small workaround that helps to quickly rename multiple activities on Strava.
 
