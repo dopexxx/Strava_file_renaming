@@ -1,4 +1,4 @@
-# Strava file renaming <img alt='Drawing' src="public/strava.png" style="height: 25px">
+# Strava file renaming <img src="public/strava.png" style="height: 25px">
 
 A small workaround that helps to quickly rename multiple activities on Strava.
 
