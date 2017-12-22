@@ -17,7 +17,7 @@ Please use one of these flags only. Default mode is `--string`. If your new name
 ## Requirements
 
 * Python 3.x
-* Selenium library for Python (use `pip install selenium` and then [download the geckodriver for your OS](https://github.com/mozilla/geckodriver/releases). If you have a Win64 OS, you get the driver automatically by cloning this repo. 
+* Selenium library for Python (use `pip install selenium` and then [download the geckodriver for your OS](https://github.com/mozilla/geckodriver/releases). If you have a Win64 OS, you get the driver automatically by cloning this repo.)
 * Firefox (Selenium can easily used for other browsers, but code is optimized for Firefox)
 
 
