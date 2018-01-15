@@ -43,8 +43,6 @@ def openEditSection():
 
 
 
-
-
 # Extract user input
 argDict = argParsing(sys.argv)
 print('These are your specified parameters: ', argDict)
@@ -128,8 +126,10 @@ for page in range(numberOfPages):
 		except UnicodeEncodeError:
 			print('Actitivity title cannot be displayed')
 
+		name = name.lower() # To undo case sensitivity for title matching
+
 		# Check whether activity is affected
-		if argDict['string'] and name.find(oldStr) > -1:
+		if argDict['string'] and name.find(oldStr.lower()) > -1:
 		    replaceName()
 
 		if argDict['private']: # If all private rides should be replaced
