@@ -9,9 +9,6 @@ After providing your Strava credentials, the tool iterates over all your activit
 * `--private` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Using this mode, you can rename all your private activities.
 * `--commute` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Rename all your commuting rides. **Sorry: Does not work atm. Strava HTML source is very inconsistent here, feel free to contribute.** 
 * `--string` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In this mode, all activities whose titles contain a string you can specify, are renamed (not case-sensitive).
-=======
-* `--commute` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Renames all commuting rides. **Sorry: Does not work atm, Strava source is inconsistent here, pls contribute.** 
-* `--string` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In this mode, all activities whose titles contain a string you can specify, are renamed. 
 
 Please use one of these flags only. Default mode is `--string`. If your new name is e.g. *London commuting*, then the tool will append the day in reversed order such that activities with the same name get sorted in ascending order by date.   In addition you can specify that you only want to rename `N` ride with a second flag. By default all your activities are verified (takes several minutes if you have 100+ activities). 
 
